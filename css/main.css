@@ -1,0 +1,10 @@
+#donation-content-container {
+    width: 50%;
+    margin: auto;
+}
+
+#macbook-air-image-container {
+    height: 80%;
+    width: 100%;
+    background: url(/img/hero_macbookair_medium.png) no-repeat
+}
