@@ -3,8 +3,105 @@
     margin: auto;
 }
 
-#macbook-air-image-container {
-    height: 80%;
-    width: 100%;
-    background: url(/img/hero_macbookair_medium.png) no-repeat
+#macbook-air {
+    height: 60vh;
+    background-image: url(/img/hero_macbookair_small2x.png);
+    background-size: 250vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+    
 }
+/*
+#macbook-air-image-container {
+    height: 60vh;
+    width: 100vw;
+    background-image: url(/img/hero_macbookair_small.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+}*/
+
+#ipad-air-promo{
+    height: 60vh;
+    background-color: #000;
+    color: #fff;
+    background-image: url(/img/promo_ipadair_small.jpg);
+    background-size: 200vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+
+
+}
+
+#iphone13 {
+    height: 60vh;
+    background-image: url(/img/hero_iphone13_small.jpg);
+    background-size: 200vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+}
+
+#supercharged-text{
+    color: rgb(255, 0, 89)
+}
+
+#supercharged {
+    height: 60vh;
+    background-image: url(/img/hero_bts_small.jpg);
+    background-size: 250vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+
+}
+
+#iphone13-pro-promo {
+    height: 60vh;
+    background-image: url(/img/iphone13_small.jpg);
+    background-size: 250vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+}
+
+
+#apple-fitness-promo{
+    height: 60vh;
+    background-image: url(/img/tile_applefitness__fdk8xvz0dvu6_small.jpg);
+    background-size: 200vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+}
+
+#macbook-13-promo{
+    height: 60vh;
+    color: #fff;
+    background-image: url(/img/promo_mb13_small2x.jpg);
+    background-size: 200vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+}
+
+#apple-event-promo{
+    height: 60vh;
+    color: #fff;
+    background-image: url(/img/event_bg_sm2x.jpg);
+    background-size: 200vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+}
+
+#event-text-container{
+    margin-bottom: 1rem;
+}
+
+#watch-7-promo{
+    height: 60vh;
+    color: #fff;
+    background-image: url(/img/promo_watch_7_bg_sm2x.jpg);
+    background-size: 200vw;
+    background-position: 49% 80%;
+    background-repeat: no-repeat;
+}
+
+/* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;*/
+
+/*Note: If one of the properties in the shorthand declaration is the bg-size property, you must use a / (slash) to separate it from the bg-position property, e.g. background:url(smiley.gif) 10px 20px/50px 50px; will result in a background image, positioned 10 pixels from the left, 20 pixels from the top, and the size of the image will be 50 pixels wide and 50 pixels high.*/
+
