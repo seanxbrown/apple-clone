@@ -4,6 +4,9 @@
         <title>Apple</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link href="css/main.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -38,22 +41,21 @@
             <section id="donation">
                 <div id="donation-content-container" class="text-center row row-cols-sm-2">
                     <figure id="unicef-logo"></figure>
-                    <a id="donation-link">Donate to support families affected by the war in Ukraine</a>
+                    <a id="donation-link" href="#">Donate to support families affected by the war in Ukraine</a>
                 </div>
             </section>
             <section id="main-section">
-                <div id="macbook-air" class="">
+                <div id="macbook-air" class="promo-item">
                     <div class="text-container">
                         <h3 class="section-header text-center fw-bold">Macbook Air</h3>
-                        <figure class="m2-logo-container .m2-logo-container-light"></figure>
+                        <figure class="m2-logo-container .m2-logo-container-light logo"></figure>
                         <div class="link-container d-flex justify-content-center">
                             <p class="action-link">Learn more ></p>
                             <p class="action-link">Buy ></p>
                         </div>
                     </div>
-                    <div class="image-container" id="macbook-air-image-container"></div>
                 </div>
-                <div id="iphone13">
+                <div id="iphone13" class="promo-item">
                     <div class="text-container">
                         <h3 class="section-header text-center fw-bold">iPhone 13</h3>
                         <h4 class="subheader text-center">Your new superpower.</h4>
@@ -62,19 +64,17 @@
                             <p class="action-link">Buy ></p>
                         </div>
                     </div>
-                    <div class="image-container"></div>
                 </div>
-                <div id="supercharged">
+                <div id="supercharged" class="promo-item">
                     <div class="text-container">
                         <h3 class="section-header text-center fw-bold fst-italic">Get <span id="supercharged-text">supercharged</span> for university.</h3>
                         <h4 class="subheader text-center">Save on Mac or iPad. Plus get a gift card up to £120.</h4>
                         <p class="action-link text-center">Shop now ></p>
                     </div>
-                    <div class="image-container"></div>
                 </div>
             </section>
             <section id="collection" class="row row-cols-sm-2 text-center">
-                <div id="iphone13-pro-promo">
+                <div id="iphone13-pro-promo" class="promo-item">
                     <div class="text-container">
                         <h3 class="section-header fw-bold">iPhone 13 Pro</h3>
                         <h4 class="subheader">Oh. So. Pro.</h4>
@@ -85,19 +85,17 @@
                     </div>
                     <div class="image-container"></div>
                 </div>
-                <div id="ipad-air-promo">
+                <div id="ipad-air-promo" class="promo-item">
                     <div class="text-container">
-                        <figure id="ipad-air-image"></figure>
+                        <figure id="ipad-air-image" class="logo"></figure>
                         <h4 class="subheader">Light. Bright. Full of might.</h4>
                         <div class="link-container d-flex justify-content-center">
                             <p class="action-link">Learn more ></p>
                             <p class="action-link">Buy ></p>
                         </div>
                     </div>
-                    <div class="image-container">
-                    </div>
                 </div>
-                <div id="apple-event-promo" class="d-flex flex-column justify-content-end">
+                <div id="apple-event-promo" class="d-flex flex-column justify-content-end promo-item">
                     <div class="text-container" id="event-text-container">
                         <h4 class="subheader fw-bold">Apple Event</h4>
                         <h4 class="subheader">Watch online on 07/09 at 6pm.</h4>
@@ -105,10 +103,9 @@
                             <p class="action-link">Learn more ></p>
                         </div>
                     </div>
-                    <div class="image-container"></div>
                 </div>
-                <div id="apple-fitness-promo">
-                    <figure id="apple-fitness-logo"></figure>
+                <div id="apple-fitness-promo" class="promo-item">
+                    <figure id="apple-fitness-logo" class="logo"></figure>
                     <h4 class="subheader">Get 3 months free when you buy an Apple Watch.</h4>
                     <div class="text-container">
                         <div class="link-container d-flex justify-content-center">
@@ -117,8 +114,8 @@
                         </div>
                     </div>
                 </div>
-                <div id="watch-7-promo">
-                    <figure id="apple-watch-7-logo"></figure>
+                <div id="watch-7-promo" class="promo-item">
+                    <figure id="apple-watch-7-logo" class="logo"></figure>
                     <div class="text-container">
                         <h4 class="subheader">The most durable Apple Watch ever.</h4>
                         <div class="link-container d-flex justify-content-center">
@@ -127,16 +124,15 @@
                         </div>                    
                     </div>
                 </div>
-                <div id="macbook-13-promo">
+                <div id="macbook-13-promo" class="promo-item">
                     <div class="text-container">
                         <h3 class="section-header">MacBook Pro 13"</h3>
-                        <figure class="m2-logo-container m2-logo-container-dark"></figure>
+                        <figure class="m2-logo-container m2-logo-container-dark logo"></figure>
                         <div class="link-container d-flex justify-content-center">
                             <p class="action-link">Learn more ></p>
                             <p class="action-link">Buy ></p>
                         </div>
                     </div>
-                    <div class="image-container"></div>
                 </div>
             </section>
         </main>
