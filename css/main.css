@@ -3,7 +3,7 @@ body {
 }
 
 #donation-content-container {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -17,7 +17,7 @@ body {
     margin: 1rem auto;
     background-image: url(../img/unicef_logo_dark.png);
     background-repeat: no-repeat;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .logo {
@@ -58,12 +58,12 @@ body {
 }
 
 .m2-logo-container {
-    background-image: url(../img/logo_promo_macbookair__sm_light.png);
     background-size: 50%;
 }
 
 .m2-logo-container-dark {
     background-image: url(../img/logo_promo_m2_small.png);
+
 }
 
 .m2-logo-container-light {
@@ -112,6 +112,7 @@ body {
 }
 
 #macbook-13-promo{
+    background-color: #000;
     padding: 2rem;
     color: #fff;
     background-image: url(../img/promo_mb13_small2x.jpg);
@@ -155,3 +156,96 @@ body {
 
 /*Note: If one of the properties in the shorthand declaration is the bg-size property, you must use a / (slash) to separate it from the bg-position property, e.g. background:url(smiley.gif) 10px 20px/50px 50px; will result in a background image, positioned 10 pixels from the left, 20 pixels from the top, and the size of the image will be 50 pixels wide and 50 pixels high.*/
 
+@media only screen and (min-width: 768px) {
+
+    .promo-item {
+        height: 50vh;
+    }
+
+    #unicef-logo {
+        background-image: url(../img/unicef_logo_dark.png);
+        width: 20%;
+        margin: auto;
+    }
+
+    #donation-link {
+        width: 60%;
+        margin: auto;
+    }
+
+    #macbook-air {
+        background-image: url(../img/hero_macbookair_medium.png);
+        background-size: 180vw;
+    }
+    
+    .m2-logo-container {
+        background-image: url(../img/logo_promo_macbookair__sm_light.png);
+    }
+    
+    .m2-logo-container-dark {
+        background-image: url(../img/logo_promo_m2_small.png);
+    }
+    
+    .m2-logo-container-light.logo {
+        background-image: url(../img/logo_promo_macbookair__med_light.png);
+        width: 50%;
+        margin: auto;
+    }
+    
+    #ipad-air-promo{
+        background-image: url(../img/promo_ipadair_med.jpg);
+        background-size: 50vw;
+    }
+    
+    #ipad-air-image {
+        height: 5vh;
+        width: 100%;
+        margin-top: 2rem;
+        background-image: url(../img/promo_logo_ipadair.png);
+
+    }
+    
+    #iphone13 {
+        background-image: url(../img/hero_iphone13_medium.jpg);
+        background-size: 150vw;
+    }
+    
+    #supercharged {
+        background-image: url(../img/hero_bts_medium.jpg);
+        background-size: 170vw;
+    }
+    
+    #iphone13-pro-promo {
+        background-image: url(../img/iphone13_med.jpg);
+        background-size: 80vw;
+    }
+    
+    #apple-fitness-promo{
+        background-image: url(../img/tile_applefitness__fdk8xvz0dvu6_medium_2x.jpg);
+        background-size: 90vw;
+    }
+    
+    #apple-fitness-logo {
+        background-image: url(../img/logo__fitness_medium_2x.png);
+    }
+    
+    #macbook-13-promo{
+        background-image: url(../img/promo_mb13_med.jpg);
+        background-size: 70vw;
+
+    }
+
+    #apple-event-promo{
+        background-image: url(../img/event_bg_med.jpg);
+        background-size: 70vw;
+    }
+    
+    
+    #watch-7-promo{
+        background-image: url(../img/promo_watch_7_bg_med.jpg);
+        background-size: 100vw;
+    }
+    
+
+
+}
