@@ -54,7 +54,6 @@ body {
 
 #macbook-air {
     background-image: url(../img/hero_macbookair_small2x.png);
-    background-size: 250vw;
 }
 
 .m2-logo-container {
@@ -95,12 +94,10 @@ body {
 
 #supercharged {
     background-image: url(../img/hero_bts_small.jpg);
-    background-size: 250vw;
 }
 
 #iphone13-pro-promo {
     background-image: url(../img/iphone13_small.jpg);
-    background-size: 250vw;
 }
 
 #apple-fitness-promo{
@@ -121,6 +118,7 @@ body {
 #apple-event-promo{
     color: #fff;
     background-image: url(../img/event_bg_sm2x.jpg);
+    background-color: #000
 }
 
 #event-text-container{
