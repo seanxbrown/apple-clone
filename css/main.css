@@ -1,5 +1,9 @@
 body {
-    font-family: "Helvetica", sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-link {
+    font-size: 0.8rem;
 }
 
 #donation-content-container {
@@ -73,6 +77,7 @@ body {
     background-color: #000;
     color: #fff;
     background-image: url(../img/promo_ipadair_small.jpg);
+    background-size: 125vw;
 }
 
 #ipad-air-image {
@@ -133,6 +138,7 @@ body {
 
 #apple-watch-7-logo {
     background-image: url(../img/promo_watch_7_sm2x.png);
+    height: 7vh;
 
 }
 
@@ -318,7 +324,7 @@ body {
     
     #apple-fitness-promo{
         background-image: url(../img/tile_applefitness__fdk8xvz0dvu6_large_2x.jpg);
-        background-size: 90vw;
+        background-size: 80vw;
     }
     
     #apple-fitness-logo {
@@ -344,3 +350,111 @@ body {
 
 
 }
+/*
+@media only screen and (min-width: 1366px) {
+
+    .section-header {
+        font-size: 3rem;
+    }
+
+    .promo-item {
+        height: 60vh;
+    }
+
+    .logo {
+        height: 55px;
+        width: 400px;
+        margin: 0 auto;
+        
+    }
+
+    #unicef-logo {
+        background-image: url(../img/unicef_logo_dark.png);
+        width: 20%;
+        margin: auto;
+    }
+
+    #donation-link {
+        width: 60%;
+        margin: auto;
+    }
+
+    #macbook-air {
+        background-image: url(../img/hero_macbookair_large.png);
+        background-size: 140vw;
+        background-position: 65% 100%
+    }
+    
+    .m2-logo-container {
+        width: 500px;
+        margin: auto;
+    }
+    
+    .m2-logo-container-dark {
+        background-image: url(../img/logo_promo_m2_small.png);
+    }
+    
+    .m2-logo-container-light {
+        background-image: url(../img/logo_promo_macbookair__sm_light.png);
+ 
+    }
+    
+    #ipad-air-promo{
+        background-image: url(../img/promo_ipadair_lg.jpg);
+        background-size: 50vw;
+    }
+    
+    #ipad-air-image {
+        height: 40px;
+        width: 400px;
+        margin: 2rem auto;
+        background-image: url(../img/promo_logo_ipadair_lg.png);
+
+    }
+    
+    #iphone13 {
+        background-image: url(../img/hero_iphone13_large.jpg);
+        height: 55vh;
+        background-position: 50% 100%;
+
+    }
+    
+    #supercharged {
+        background-image: url(../img/hero_bts_large.jpg);
+        background-size: 220vw;
+
+        
+    }
+    
+    #iphone13-pro-promo {
+        background-image: url(../img/iphone13_large.jpg);
+        background-size: 80vw;
+    }
+    
+    #apple-fitness-promo{
+        background-image: url(../img/tile_applefitness__fdk8xvz0dvu6_large_2x.jpg);
+        background-size: 80vw;
+    }
+    
+    #apple-fitness-logo {
+        background-image: url(../img/logo__fitness_medium_2x.png);
+    }
+    
+    #macbook-13-promo{
+        background-image: url(../img/promo_mb13_lg.jpg);
+        background-size: 70vw;
+
+    }
+
+    #apple-event-promo{
+        background-image: url(../img/event_bg_lg.jpg);
+        background-size: 70vw;
+    }
+    
+    
+    #watch-7-promo{
+        background-image: url(../img/promo_watch_7_bg_lg.jpg);
+        background-size: 100vw;
+    }
+
+}*/
